@@ -6,6 +6,8 @@ import NavbarTry from './NavbarTry';
 import Footer from './Footer';
 import SubscribeForm from './SubscribeForm';
 
+import Slick from './Slick';
+
 
 
 
@@ -18,6 +20,7 @@ const MainComponent = () => {
     <div>
     <NavbarTry/>
       {isMobile ? <MobileLayout /> : <DesktopLayout />}
+      <Slick/>
       <SubscribeForm/>
     <Footer/>
     </div>

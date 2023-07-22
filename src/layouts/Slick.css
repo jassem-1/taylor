@@ -1,0 +1,27 @@
+*{
+    padding :0;
+    margin: 0;
+    box-sizing: border-box;
+
+  }
+.carousel{
+    padding: 5rem;
+    background-color: rgb(38, 60, 80);
+    color: aliceblue;
+    height: 82%;
+    width: 100%;
+    background-image: url("https://media.istockphoto.com/id/1126162064/photo/cloudy-midnight-blue-sky-background.jpg?s=612x612&w=0&k=20&c=6iAZwxn4ZyugshNI7zxKHsXzeGF-IcxzNufY53UNnHw="); /* Replace 'path_to_your_background_image.jpg' with the actual path to your background image */
+    background-size: cover; /* This will ensure the image covers the entire carousel container */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center;
+
+  }
+  .box{
+    background-color: transparent ;
+    height: 305px;
+  
+  }
+.slick-slide div {
+  margin: 0 1rem;
+
+  }
