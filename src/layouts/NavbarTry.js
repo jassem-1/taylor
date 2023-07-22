@@ -3,11 +3,7 @@ import './NavbarTry.css';
 import 'font-awesome/css/font-awesome.min.css';
 
 const NavbarTry = () => {
-    const handleMenuIconClick = () => {
-        // Toggle the 'show-menu' checkbox
-        const showMenuCheckbox = document.getElementById('show-menu');
-        showMenuCheckbox.checked = !showMenuCheckbox.checked;
-      };
+   
   return (
     <div className="wrapper">
       <nav>

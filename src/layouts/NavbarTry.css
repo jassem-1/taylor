@@ -7,7 +7,7 @@
   font-family: 'Poppins', sans-serif;
 }
 .wrapper{
-  background:rgb(109, 86, 146);
+  background:rgb(191, 178, 211);
   position: fixed;
   width: 100%;
   z-index: 1000;
@@ -26,7 +26,7 @@ nav .content{
   align-items: center;
 }
 nav .content .links{
-  margin-left: 150px;
+  margin-left: 250px;
   display: flex;
 }
 .content .logo a{
@@ -60,8 +60,8 @@ nav .content .links{
   z-index: 2; 
 }
 .wrapper .menu-icon{
-  color: #fff;
-  font-size: 18px;
+  color: #020202;
+  font-size: 22px;
   cursor: pointer;
   line-height: 70px;
   width: 70px;
@@ -79,7 +79,7 @@ nav .content .links{
 /* Dropdown Menu code start */
 .content .links ul{
   position: absolute;
-  background: rgb(109, 86, 146);
+  background: rgb(191, 178, 211);
   top: 80px;
   z-index: -1;
   opacity: 0;
@@ -134,7 +134,7 @@ nav .content .links{
   nav .content .links{
     display: block;
     position: fixed;
-    background: #14181f;
+    background: rgb(191, 178, 211);
     height: 100%;
     width: 100%;
     top: 70px;

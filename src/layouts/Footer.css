@@ -1,0 +1,37 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:rgb(191, 178, 211);
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .left-section {
+    flex: 1;
+  }
+  
+  .right-section {
+    display: flex;
+  }
+  
+  .right-section a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 5px;
+  }
+  
+  .right-section span {
+    color: #666;
+  }
+  @media screen and (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .right-section {
+      margin-top: 10px; /* Add some spacing between the left and right sections in the column layout */
+    }
+  }

@@ -3,7 +3,13 @@ import { useMediaQuery } from 'react-responsive';
 import DesktopLayout from './DesktopLayout';
 import MobileLayout from './MobileLayout';
 import NavbarTry from './NavbarTry';
-import Navbar from '../components/Navbar';
+import Footer from './Footer';
+import SubscribeForm from './SubscribeForm';
+
+
+
+
+
 
 const MainComponent = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 }); // Adjust the breakpoint as needed
@@ -12,6 +18,8 @@ const MainComponent = () => {
     <div>
     <NavbarTry/>
       {isMobile ? <MobileLayout /> : <DesktopLayout />}
+      <SubscribeForm/>
+    <Footer/>
     </div>
   );
 };

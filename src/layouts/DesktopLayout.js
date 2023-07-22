@@ -31,6 +31,17 @@ const DesktopLayout = () => {
         src="https://cache.umusic.com/_sites/_halo/zrskt/nwff/dban2.jpg"
         alt="Desktop Another Image"
       />
+
+      <img
+      style={{ width: '100%', height: 'auto' }}
+      src="https://cache.umusic.com/_sites/_halo/zrskt/nwff/tdelisten.jpg"
+      alt="Desktop Another Image"
+    />
+      <img
+        style={{ width: '100%', height: 'auto' }}
+        src="https://cache.umusic.com/_sites/_halo/zrskt/nwff/utbd.jpg"
+        alt="Desktop Another Image"
+      />
     </div>
   );
 };
