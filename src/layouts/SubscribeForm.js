@@ -16,7 +16,7 @@ const SubscribeForm = () => {
   };
 
   return (
-
+    <div className="form-body">
     <form className="subscribe-form" onSubmit={handleSubmit}>
     <div className="form-row">
       <div className="form-group">
@@ -39,7 +39,8 @@ Fields marked with an asterisk (*) are required.
 International customers will receive an email to confirm your subscription to above mailing list.
   </div>
     <button type="submit">Subscribe</button>
-  </form>
+  </form></div>
+   
   
    
   );

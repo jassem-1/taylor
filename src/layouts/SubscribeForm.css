@@ -1,9 +1,16 @@
 
+.form-body{
+   
+    background-image: url('https://img.freepik.com/premium-vector/realistic-wood-texture-natural-dark-brown-wooden-background-table-floor-wall-surface_390775-105.jpg');
+  background-size: cover;
+  background-position: center;
+  }
 .subscribe-form {
     max-width: 70%;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: none;
+  
   }
   
   .form-row {
@@ -29,7 +36,7 @@
   }
   
   button {
-    background-color: #007bff;
+    background-color: #412c12;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -47,8 +54,9 @@
     margin-top:3%;
     margin-bottom: 3%;
     padding: 20px;
-    background-color: #fffefe;
-    color: #861d1d;
-    font-size: 18px;
+    background-color:none;
+    color: #1a1515;
+    font-size: 20px;
+    font-weight: 420;
     
   }  
