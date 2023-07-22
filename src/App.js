@@ -1,9 +1,21 @@
+
 import Navbar from "./components/Navbar";
+
+import "video-react/dist/video-react.css";
+import MainComponent from "./layouts/MainComponent";
+
+
+
+
 
 
 function App() {
+
   return (
- <Navbar/>
+    <div>
+  <MainComponent/>
+    </div>
+
   );
 }
 
